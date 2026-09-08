@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 80" role="img" aria-label="AutoCAD">
+  <path fill="#E51937" d="M20 65 L60 10 L100 65 Z" stroke="#C41230" stroke-width="2"/>
+  <path fill="#fff" d="M38 52 L60 22 L82 52 Z"/>
+  <text x="60" y="76" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="700" fill="#333">AutoCAD</text>
+</svg>

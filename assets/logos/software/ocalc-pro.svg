@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 70" role="img" aria-label="O-Calc Pro">
+  <text x="4" y="42" font-family="Arial,sans-serif" font-size="28" font-weight="700">
+    <tspan fill="#0066B3">O</tspan><tspan fill="#1a1a1a">-Calc</tspan>
+  </text>
+  <text x="108" y="42" font-family="Georgia,serif" font-size="26" font-style="italic" fill="#888">Pro</text>
+  <line x1="18" y1="48" x2="18" y2="18" stroke="#0066B3" stroke-width="2"/>
+  <line x1="12" y1="24" x2="24" y2="24" stroke="#0066B3" stroke-width="2"/>
+</svg>

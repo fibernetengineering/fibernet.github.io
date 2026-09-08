@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 80" role="img" aria-label="SPIDA Software">
+  <circle cx="22" cy="32" r="14" fill="#C8102E"/>
+  <line x1="22" y1="18" x2="22" y2="46" stroke="#fff" stroke-width="2"/>
+  <line x1="10" y1="32" x2="34" y2="32" stroke="#fff" stroke-width="2"/>
+  <line x1="14" y1="24" x2="30" y2="40" stroke="#fff" stroke-width="1.5"/>
+  <line x1="30" y1="24" x2="14" y2="40" stroke="#fff" stroke-width="1.5"/>
+  <text x="44" y="30" font-family="Arial,sans-serif" font-size="14" font-weight="800" fill="#1a1a1a">SPIDA SOFTWARE</text>
+  <text x="44" y="46" font-family="Arial,sans-serif" font-size="8" fill="#666">A Bentley Company</text>
+</svg>

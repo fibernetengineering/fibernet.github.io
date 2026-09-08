@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 70" role="img" aria-label="RapidPlan">
+  <rect x="4" y="14" width="28" height="28" fill="#F4A024"/>
+  <rect x="4" y="14" width="14" height="14" fill="#0066B3"/>
+  <rect x="18" y="28" width="14" height="14" fill="#0066B3"/>
+  <line x1="18" y1="14" x2="18" y2="42" stroke="#fff" stroke-width="1.5"/>
+  <line x1="4" y1="28" x2="32" y2="28" stroke="#fff" stroke-width="1.5"/>
+  <text x="42" y="36" font-family="Arial,sans-serif" font-size="20" font-weight="700" fill="#0066B3">Rapid</text>
+  <text x="108" y="36" font-family="Arial,sans-serif" font-size="20" font-weight="700" fill="#F4A024">Plan</text>
+</svg>
