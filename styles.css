@@ -536,26 +536,6 @@ address { font-style: normal; }
 /* Video */
 .video-showcase { background: linear-gradient(180deg, var(--sky-soft) 0%, #fff 100%); }
 
-.video-tab {
-  text-align: center;
-  padding: 0.85rem 1rem;
-  background: #fff;
-  border: 1px solid var(--border);
-  border-radius: var(--radius);
-  font-size: 0.85rem;
-  font-weight: 600;
-  color: var(--text-muted);
-  cursor: pointer;
-  transition: all 0.25s ease;
-}
-
-.video-tab.active {
-  background: linear-gradient(135deg, var(--sky), var(--sky-deep));
-  color: #fff;
-  border-color: transparent;
-  box-shadow: var(--shadow-md);
-}
-
 .video-main { border: 3px solid #fff; box-shadow: var(--shadow-lg); background: #000; }
 
 .video-frame {

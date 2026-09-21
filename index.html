@@ -254,29 +254,18 @@
           <h2 class="section-title">See how we deliver at scale</h2>
           <p class="section-desc mb-0">From network planning to field-ready construction packages — our teams operate across wireless and fiber disciplines.</p>
         </div>
-        <div class="row g-3 g-lg-4 align-items-stretch">
-          <div class="col-lg-3">
-            <div class="video-tabs d-flex flex-row flex-lg-column gap-2 h-100" role="tablist" aria-label="Engineering videos">
-              <button class="video-tab active flex-fill" type="button" role="tab" aria-selected="true" data-video="assets/video/network-planning.mp4" data-poster="assets/images/poster-global.jpg" data-label="Global network infrastructure planning">Network Planning</button>
-              <button class="video-tab flex-fill" type="button" role="tab" aria-selected="false" data-video="assets/video/fiber-network.mp4" data-poster="assets/images/service-fiber.jpg" data-label="Fiber optic backbone &amp; high-speed connectivity">Fiber &amp; Backbone</button>
-              <button class="video-tab flex-fill" type="button" role="tab" aria-selected="false" data-video="assets/video/wireless-tower.mp4" data-poster="assets/images/hero-tower.jpg" data-label="Wireless tower &amp; 5G deployment engineering">Wireless &amp; 5G</button>
+        <div class="video-main rounded-4 overflow-hidden">
+          <div class="video-frame">
+            <video id="showcaseVideo" class="video-player w-100" controls playsinline muted loop preload="metadata" poster="assets/images/poster-global.jpg">
+              <source src="assets/video/deliver-at-scale.mp4" type="video/mp4">
+            </video>
+            <div class="video-play-hint" id="videoPlayHint" aria-hidden="true">
+              <span>▶ Playing</span>
             </div>
           </div>
-          <div class="col-lg-9">
-            <div class="video-main rounded-4 overflow-hidden">
-              <div class="video-frame">
-                <video id="showcaseVideo" class="video-player w-100" controls playsinline muted loop preload="metadata" poster="assets/images/poster-global.jpg">
-                  <source src="assets/video/network-planning.mp4" type="video/mp4">
-                </video>
-                <div class="video-play-hint" id="videoPlayHint" aria-hidden="true">
-                  <span>▶ Playing</span>
-                </div>
-              </div>
-              <div class="video-main-footer">
-                <p class="video-main-label mb-0" id="videoLabel">Global network infrastructure planning</p>
-                <p class="video-unmute-hint mb-0">Autoplays when in view · use controls to unmute</p>
-              </div>
-            </div>
+          <div class="video-main-footer">
+            <p class="video-main-label mb-0" id="videoLabel">How we deliver at scale</p>
+            <p class="video-unmute-hint mb-0">Autoplays when in view · use controls to unmute</p>
           </div>
         </div>
       </div>
@@ -392,7 +381,7 @@
         <div class="row g-4">
           <div class="col-md-6">
             <article class="location-card h-100">
-              <div class="location-image"><img src="assets/images/location-hyderabad.jpg" alt="Hyderabad" loading="lazy"></div>
+              <div class="location-image"><img src="assets/images/location-hyderabad.jpg" alt="Charminar, Hyderabad" loading="lazy"></div>
               <div class="location-body"><div class="location-flag">🇮🇳</div><h3 class="h5">Hyderabad, India</h3><address class="mb-2">Plot No. 47, HITEC City Phase 2<br>Madhapur, Hyderabad, Telangana 500081</address><a href="tel:+914023847291" class="location-phone d-block">+91 40 2384 7291</a><a href="mailto:hyderabad@fiberneteng.com" class="location-email">hyderabad@fiberneteng.com</a></div>
             </article>
           </div>

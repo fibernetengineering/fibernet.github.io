@@ -44,11 +44,9 @@
   }, { threshold: 0.5 });
   document.querySelectorAll('[data-count]').forEach(el => counterObserver.observe(el));
 
-  // Video tabs + scroll autoplay
+  // Scroll autoplay for the single showcase video
   const videoSection = document.getElementById('videoShowcase');
-  const videoTabs = document.querySelectorAll('.video-tab');
   const showcaseVideo = document.getElementById('showcaseVideo');
-  const videoLabel = document.getElementById('videoLabel');
   const videoPlayHint = document.getElementById('videoPlayHint');
   let sectionInView = false;
 
@@ -66,26 +64,6 @@
     showcaseVideo.pause();
     videoPlayHint?.classList.remove('visible');
   }
-
-  function loadShowcaseVideo(src, poster, label) {
-    if (!showcaseVideo) return;
-    const wasPlaying = sectionInView && !showcaseVideo.paused;
-    showcaseVideo.pause();
-    showcaseVideo.querySelector('source').src = src;
-    showcaseVideo.poster = poster;
-    videoLabel.textContent = label;
-    showcaseVideo.load();
-    if (wasPlaying || sectionInView) playShowcaseVideo();
-  }
-
-  videoTabs.forEach(tab => {
-    tab.addEventListener('click', () => {
-      videoTabs.forEach(t => { t.classList.remove('active'); t.setAttribute('aria-selected', 'false'); });
-      tab.classList.add('active');
-      tab.setAttribute('aria-selected', 'true');
-      loadShowcaseVideo(tab.dataset.video, tab.dataset.poster, tab.dataset.label);
-    });
-  });
 
   if (videoSection && showcaseVideo) {
     const videoObserver = new IntersectionObserver(entries => {
